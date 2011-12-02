@@ -1,0 +1,11 @@
+# Ignore all dotfiles...
+.*
+
+# except for .gitignore
+!.gitignore
+
+# and .htaccess
+!.htaccess
+
+# ignore data directory
+docs

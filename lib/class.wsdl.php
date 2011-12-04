@@ -756,13 +756,13 @@ class wsdl extends nusoap_base {
     function webDescription(){
     	global $HTTP_SERVER_VARS;
 
-		if (isset($_SERVER)) {
-			$PHP_SELF = $_SERVER['PHP_SELF'];
-		} elseif (isset($HTTP_SERVER_VARS)) {
-			$PHP_SELF = $HTTP_SERVER_VARS['PHP_SELF'];
-		} else {
-			$this->setError("Neither _SERVER nor HTTP_SERVER_VARS is available");
-		}
+		/* if (isset($_SERVER)) { */
+		/* 	$PHP_SELF = $_SERVER['PHP_SELF']; */
+		/* } elseif (isset($HTTP_SERVER_VARS)) { */
+		/* 	$PHP_SELF = $HTTP_SERVER_VARS['PHP_SELF']; */
+		/* } else { */
+		/* 	$this->setError("Neither _SERVER nor HTTP_SERVER_VARS is available"); */
+		/* } */
 
 		$b = '
 		<html><head><title>NuSOAP: '.$this->serviceName.'</title>
@@ -844,7 +844,7 @@ class wsdl extends nusoap_base {
 			<br><br>
 			<div class=title>'.$this->serviceName.'</div>
 			<div class=nav>
-				<p>View the <a href="'.$PHP_SELF.'?wsdl">WSDL</a> for the service.
+				<p>View the <a href="?wsdl">WSDL</a> for the service.
 				Click on an operation name to view it&apos;s details.</p>
 				<ul>';
 				foreach($this->getOperations() as $op => $data){

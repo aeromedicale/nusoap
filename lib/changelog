@@ -646,3 +646,6 @@
 - nusoap_client: do not assign the return value of new by reference (it is deprecated) (thanks Pier-Luc Duchaine)
 - nusoap_base: replace regex function calls (ereg, eregi, split) with PCRE calls (preg_match, preg_split) (thanks Pier-Luc Duchaine)
 - nusoapmime: do not assign the return value of new by reference (it is deprecated)
+
+2011-12-04, version 0.9.5+iMedevac-0.1
+-added the debian patch : http://bugs.debian.org/cgi-bin/bugreport.cgi?msg=22;filename=595248.patch;att=1;bug=595248

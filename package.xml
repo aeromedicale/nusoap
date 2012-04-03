@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>NuSoap</name>
+ <uri>http://pear.imedevac.com/nusoap</uri>
+ <summary>NuSoap Library (iMedevac Fork)</summary>
+ <description>
+Fork of the NuSoap library 0.9.5
+ </description>
+ <lead>
+  <name>Chris Woodford</name>
+  <user>chris</user>
+  <email>chris@imedevac.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-01</date>
+ <time>21:34:29</time>
+ <version>
+  <release>0.9.6</release>
+  <api>0.9.6</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.imedevac.com/licenses/license.html">iMedevac</license>
+ <notes>
+no release notes
+ </notes>
+ <contents>
+  <dir name="/">
+   <dir name="lib">
+    <file name="changelog" role="doc" />
+    <file name="class.nusoap_base.php" role="php" />
+    <file name="class.soap_fault.php" role="php" />
+    <file name="class.soap_parser.php" role="php" />
+    <file name="class.soap_server.php" role="php" />
+    <file name="class.soap_transport_http.php" role="php" />
+    <file name="class.soap_val.php" role="php" />
+    <file name="class.soapclient.php" role="php" />
+    <file name="class.wsdl.php" role="php" />
+    <file name="class.wsdlcache.php" role="php" />
+    <file name="class.xmlschema.php" role="php" />
+    <file name="nusoap.php" role="php" />
+    <file name="nusoapmime.php" role="php" />
+   </dir>
+   <file name="README.md" role="doc" />
+   <file name="VERSION" role="doc">
+    <tasks:replace from="@version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="class.nusoap_base.php" name="lib/class.nusoap_base.php" />
+   <install as="class.soap_fault.php" name="lib/class.soap_fault.php" />
+   <install as="class.soap_parser.php" name="lib/class.soap_parser.php" />
+   <install as="class.soap_server.php" name="lib/class.soap_server.php" />
+   <install as="class.soap_transport_http.php" name="lib/class.soap_transport_http.php" />
+   <install as="class.soap_val.php" name="lib/class.soap_val.php" />
+   <install as="class.soapclient.php" name="lib/class.soapclient.php" />
+   <install as="class.wsdl.php" name="lib/class.wsdl.php" />
+   <install as="class.wsdlcache.php" name="lib/class.wsdlcache.php" />
+   <install as="class.xmlschema.php" name="lib/class.xmlschema.php" />
+   <install as="nusoap.php" name="lib/nusoap.php" />
+   <install as="nusoapmime.php" name="lib/nusoapmime.php" />
+   <install as="CHANGELOG" name="lib/changelog" />
+   <install as="README" name="README.md" />
+   <install as="VERSION" name="VERSION" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.9.6</release>
+    <api>0.9.6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-01</date>
+   <license uri="http://www.imedevac.com/licenses/license.html">iMedevac</license>
+   <notes>
+no release notes
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -31,6 +31,96 @@ no release notes
  </notes>
  <contents>
   <dir name="/">
+   <dir name="docs">
+    <dir name="__filesource">
+     <file name="fsource_nusoap__class.wsdlcache.php.html" role="doc" />
+     <file name="fsource_nusoap__nusoap.php.html" role="doc" />
+     <file name="fsource_nusoap__nusoapmime.php.html" role="doc" />
+    </dir>
+    <dir name="media">
+     <dir name="images">
+      <file name="AbstractClass_logo.png" role="doc" />
+      <file name="AbstractClass.png" role="doc" />
+      <file name="AbstractMethod.png" role="doc" />
+      <file name="AbstractPrivateClass_logo.png" role="doc" />
+      <file name="AbstractPrivateClass.png" role="doc" />
+      <file name="AbstractPrivateMethod.png" role="doc" />
+      <file name="blank.png" role="doc" />
+      <file name="class_folder.png" role="doc" />
+      <file name="Class_logo.png" role="doc" />
+      <file name="Class.png" role="doc" />
+      <file name="Constant.png" role="doc" />
+      <file name="Constructor.png" role="doc" />
+      <file name="Destructor.png" role="doc" />
+      <file name="empty.png" role="doc" />
+      <file name="file.png" role="doc" />
+      <file name="folder.png" role="doc" />
+      <file name="function_folder.png" role="doc" />
+      <file name="Function.png" role="doc" />
+      <file name="Global.png" role="doc" />
+      <file name="I.png" role="doc" />
+      <file name="Index.png" role="doc" />
+      <file name="L.png" role="doc" />
+      <file name="Lminus.png" role="doc" />
+      <file name="Lplus.png" role="doc" />
+      <file name="Method.png" role="doc" />
+      <file name="next_button_disabled.png" role="doc" />
+      <file name="next_button.png" role="doc" />
+      <file name="package_folder.png" role="doc" />
+      <file name="package.png" role="doc" />
+      <file name="Page_logo.png" role="doc" />
+      <file name="Page.png" role="doc" />
+      <file name="previous_button_disabled.png" role="doc" />
+      <file name="previous_button.png" role="doc" />
+      <file name="private_class_logo.png" role="doc" />
+      <file name="PrivateClass_logo.png" role="doc" />
+      <file name="PrivateClass.png" role="doc" />
+      <file name="PrivateMethod.png" role="doc" />
+      <file name="PrivateVariable.png" role="doc" />
+      <file name="T.png" role="doc" />
+      <file name="Tminus.png" role="doc" />
+      <file name="Tplus.png" role="doc" />
+      <file name="tutorial_folder.png" role="doc" />
+      <file name="tutorial.png" role="doc" />
+      <file name="up_button.png" role="doc" />
+      <file name="Variable.png" role="doc" />
+     </dir>
+     <file name="banner.css" role="doc" />
+     <file name="stylesheet.css" role="doc" />
+    </dir>
+    <dir name="nusoap">
+     <file name="_class_wsdlcache_php.html" role="doc" />
+     <file name="_nusoap_php.html" role="doc" />
+     <file name="_nusoapmime_php.html" role="doc" />
+     <file name="nusoap_base.html" role="doc" />
+     <file name="nusoap_client_mime.html" role="doc" />
+     <file name="nusoap_client.html" role="doc" />
+     <file name="nusoap_fault.html" role="doc" />
+     <file name="nusoap_parser.html" role="doc" />
+     <file name="nusoap_server_mime.html" role="doc" />
+     <file name="nusoap_server.html" role="doc" />
+     <file name="nusoap_wsdlcache.html" role="doc" />
+     <file name="nusoap_xmlschema.html" role="doc" />
+     <file name="nusoapservermime.html" role="doc" />
+     <file name="soap_fault.html" role="doc" />
+     <file name="soap_parser.html" role="doc" />
+     <file name="soap_server.html" role="doc" />
+     <file name="soap_transport_http.html" role="doc" />
+     <file name="soapclient.html" role="doc" />
+     <file name="soapclientmime.html" role="doc" />
+     <file name="soapval.html" role="doc" />
+     <file name="wsdl.html" role="doc" />
+     <file name="wsdlcache.html" role="doc" />
+     <file name="XMLSchema.html" role="doc" />
+    </dir>
+    <file name="blank.html" role="doc" />
+    <file name="classtrees_nusoap.html" role="doc" />
+    <file name="elementindex_nusoap.html" role="doc" />
+    <file name="errors.html" role="doc" />
+    <file name="index.html" role="doc" />
+    <file name="li_nusoap.html" role="doc" />
+    <file name="packages.html" role="doc" />
+   </dir>
    <dir name="lib">
     <file name="changelog" role="doc" />
     <file name="class.nusoap_base.php" role="php" />

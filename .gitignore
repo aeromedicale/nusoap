@@ -9,3 +9,7 @@
 
 # ignore data directory
 docs
+
+# package
+NuSoap-*.tgz
+
